@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmlns:ui="http://www.eclipse.org/ui/2010/UIModel/application/ui" xmi:id="_a_KhwHlhEeWTNKqIPFrV-w">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ho_8gHlhEeWTNKqIPFrV-w" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_-rFLoHlhEeWTNKqIPFrV-w" elementId="tp3_plugine4.menucontribution.0" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_NQ4XYHliEeWTNKqIPFrV-w" elementId="tp3_plugine4.menu.menutp3" label="Menu TP3">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_XhWhoHliEeWTNKqIPFrV-w" elementId="tp3_plugine4.directmenuitem.action1" label="Action 1" iconURI="platform:/plugin/TP3_PluginE4/icons/sample.gif" contributionURI="bundleclass://TP3_PluginE4/actionTP3"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_e3TwoHlkEeWTNKqIPFrV-w" elementId="tp3_plugine4.handledmenuitem.action2" label="Action 2" command="_n8j6YHljEeWTNKqIPFrV-w"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ctoj0HljEeWTNKqIPFrV-w" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_n8j6YHljEeWTNKqIPFrV-w" elementId="tp3_plugine4.command.coolcommand" commandName="coolCommand"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_yMdc4HljEeWTNKqIPFrV-w" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_N0vAcHlkEeWTNKqIPFrV-w" elementId="tp3_plugine4.handler.1" contributionURI="bundleclass://TP3_PluginE4/CoolHandler" command="_n8j6YHljEeWTNKqIPFrV-w"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_sizQQHlkEeWTNKqIPFrV-w" featurename="trimContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:TrimContribution" xmi:id="_ycUoYHlkEeWTNKqIPFrV-w" elementId="tp3_plugine4.trimcontribution.0" parentId="org.eclipse.ui.main.toolbar">
+      <children xsi:type="menu:ToolBar" xmi:id="_39ubcHlkEeWTNKqIPFrV-w" elementId="tp3_plugine4.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_6d6gQHlkEeWTNKqIPFrV-w" elementId="tp3_plugine4.handledtoolitem.tp3button" label="TP3 Button" command="_n8j6YHljEeWTNKqIPFrV-w">
+          <visibleWhen xsi:type="ui:CoreExpression" xmi:id="__ERnYHlkEeWTNKqIPFrV-w"/>
+        </children>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
